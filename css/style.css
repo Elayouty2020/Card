@@ -1,0 +1,67 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color: #eee;
+    width: 700px;
+    height: 550px;
+    margin: 70px auto;
+}
+.container img {
+    width: 150px;
+    height: 140px;
+    position: absolute;
+    z-index: 3;
+    top: 26px;
+}
+.card {
+    position: relative;
+    margin-top: 140px;
+    background-color: #fff;
+    border-radius: 8px;
+    width: 500px;
+    height: 300px;
+    padding: 30px;
+}
+.card h2 {
+   text-align: center;
+   color: #3b74ba;
+   font-size: 30px;
+   margin: 10px 0 0 0;
+}
+.card >p {
+    text-align: center;
+    color: #9e9e9ee8;
+    font-size: 19px;
+    margin: 10px 0 21px 0;
+ }
+ .card hr {
+    margin: 20px 0;
+    border-top: 1px solid #eeeeee9c;
+ }
+
+ .card .account {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f6f6f6;
+    margin: 7px 0;
+    padding: 0 20px;
+ }
+ .a {
+    width: 35px;
+    height: 35px;
+    background-color: #3b74ba;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-radius: 3px;
+    position: absolute;
+    right: 20px;
+    bottom: -17px;
+    font-weight: bold;
+ }
+    
